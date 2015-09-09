@@ -1,4 +1,6 @@
-CFLAGS+=-O2
+#CFLAGS+=-O2
+CFLAGS+=-fno-inline -O0 -g -Wstrict-prototypes -Wall
+#CFLAGS+=-I/usr/include/openssl -L/usr/lib/x86_64-linux-gnu
 LIBS+=-lcrypto -lz
 
 all: peervpn

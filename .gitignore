@@ -3,3 +3,5 @@ cscope.*
 tags
 *.o
 peervpn
+udp-client
+udp-server
